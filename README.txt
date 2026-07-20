@@ -1,2 +1,2 @@
 Github pages URL: https://davidhuwyler.github.io/EasyOrderSeetal/
-Custom URL: 
+Custom URL: easyorderseetal.ch
