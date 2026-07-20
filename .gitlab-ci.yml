@@ -1,0 +1,14 @@
+pages:
+  stage: deploy
+
+  script:
+    - mkdir public
+    - cp index.html public/
+    - cp EasyOrderSeetal_Flyer_abHerbst2026.jpeg public/
+
+  artifacts:
+    paths:
+      - public
+
+  only:
+    - main
