@@ -1,25 +1,53 @@
 <!DOCTYPE html>
-<html>
+<html lang="de">
 <head>
     <meta charset="UTF-8">
-    <title>My Website</title>
-    <style>
-        html, body {
-            margin: 0;
-            background: black;
-            width: 100%;
-            height: 100%;
-        }
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EasyOrder Seetal</title>
 
-        img {
-            width: 100%;
-            height: 100%;
-            object-fit: contain;   /* use "cover" if you want it to fill the screen */
-        }
-    </style>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <img src="EasyOrderSeetal_Flyer.jpeg" alt="">
+
+<div class="container">
+
+    <img src="images/EasyOrderSeetal_Flyer.jpeg"
+         alt="EasyOrder Seetal Flyer"
+         class="hero-image">
+
+    <div class="text">
+        <strong>Reservationsanfrage an :</strong>
+        <p>
+            <a href="mailto:easyorderseetal@outlook.com">
+                easyorderseetal@outlook.com
+            </a>
+        </p>
+        <p>
+            <br>
+            <br>
+            <br>
+            Bitte folgende Angaben einreichen:<br>
+            <br>
+        </p>
+        <ul class="bullet-list">
+            <li>Veranstaltungsdatum</li>
+            <li>Mietzeitraum</li>
+            <li>Anzahl Drucker</li>
+            <li>Programmierung durch Mieter oder Vermieter</li>
+            <li>Getränkekte/Menu (kann nachgereicht werden)</li>
+        </ul>
+    </div>
+    <br>
+    <br>
+    <br>
+    <a class="download-button"
+       href="docs/EasyOrderSeetal_Anleitung.v0.5.pdf"
+       download>
+        Anleitung Download
+    </a>
+
+</div>
+
 </body>
 </html>

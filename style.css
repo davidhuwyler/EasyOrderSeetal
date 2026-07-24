@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: black;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    max-width: 500px;
+    margin: 30px auto 60px;
+    padding: 0 20px;
+    text-align: center;
+}
+
+.hero-image {
+    width: 100%;
+    max-width: 650px;
+    height: auto;
+    display: block;
+    margin: auto;
+}
+
+.text {
+    margin-top: 28px;
+    text-align: left;
+    line-height: 1.35;
+    font-size: 20px;
+}
+
+.text strong {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.text a {
+    color: #d06cff;
+    text-decoration: none;
+}
+
+.text a:hover {
+    text-decoration: underline;
+}
+
+.bullet-list {
+    margin: 0;
+    padding-left: 1.1em;   /* Adjust until it aligns */
+}
+
+.download-button {
+
+    display: inline-block;
+
+    margin-top: 55px;
+
+    padding: 18px 70px;
+
+    background: #012755;
+
+    color: #ffffff;
+
+    border-radius: 10px;
+
+    text-decoration: none;
+
+    font-size: 22px;
+
+    transition: 0.2s;
+}
+
+.download-button:hover {
+    background: #96b9e4;
+}
+
+.download-button:active {
+    transform: scale(0.98);
+}
